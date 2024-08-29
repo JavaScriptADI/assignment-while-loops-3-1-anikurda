@@ -13,6 +13,10 @@ for (let i = 1; i <= 100; i++) {
 }
 
 // 100 Random num
+for (let i = 0; i <= 100; i++){
+    let randomNumber = Math.floor(Math.random() * 100);
+    console.log(randomNumber);
+}
 
 // Sum of even numbers 1 - 1,000
 let sum = 0;
